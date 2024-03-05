@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-multiselect-panel .p-multiselect-header input{
+    padding: 0.5rem;
+    border: 1px solid #d1d5db
+}
+.p-multiselect .p-multiselect-label {padding: 0.6rem 0.75rem;}
+.p-multiselect-panel .p-multiselect-header input:hover{border-color:#06b6d4}
+.p-multiselect-panel .p-multiselect-header {
+    border-bottom: 1px solid #e5e7eb !important;
+    background: #f9fafb !important;
+}
+.p-checkbox .p-checkbox-box {
+    border: 2px solid #d1d5db;
+    background: #ffffff;
+    width: 22px; 
+    height: 22px;
+    color: #4b5563;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.p-checkbox .p-checkbox-box.p-highlight {
+    border-color: #06b6d4;
+    background: #06b6d4;
+}
